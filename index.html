@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+           border: solid purple;
+           width: 550px;
+           margin-left: 150px;
+           background-color: blanchedalmond;
+           }
+           h1::first-line{
+            color:red;
+           }
+        .d1{
+            border: 2px solid black;
+            width: 320px;
+            height: 120px;
+            background-color: aqua;
+        }
+        img{
+            margin-left:215px;
+            border:solid  red;
+            }
+        ul{
+            margin-top: -100px;
+            margin-left: -20px;
+        }
+        .p1{
+            border: 2px solid black;
+            width: 150px;
+            height:20px;
+            margin-left: 20px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        #b1{
+            border: 3px solid red;
+            width: 360px;
+            height:125px;
+            background-color: greenyellow;
+            margin-left: 350px;
+            margin-top: -135px;
+            display:none ;
+        }
+        .p1:hover + #b1{
+          display: block;
+        }
+        .d2{
+            border: 2px solid black;
+            width: 320px;
+            height: 120px;
+             margin-top:50px;
+            background-color: aqua;
+        }
+        ol{
+            margin-left: -15px;
+            margin-top: -100px;
+        }
+        .p2{
+            border: 2px solid black;
+            width: 150px;
+            height: 20px;
+            margin-left: 20px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+       
+        #b2{
+            border: 3px solid orange;
+            width: 380px;
+            height: 130px;
+            margin-left: 350px;
+            margin-top: -135px;
+            background-color: lawngreen;
+            display:none ;
+        }
+        .p2:hover + #b2{
+            display: block;
+        }
+           
+       
+    </style>
+</head>
+<body>
+    <h1>Hovering on click me they  show content</h1>
+    <div class="d1">
+        <img src="../ASSERTS/IMAGES/virat.jpg"  height="115" width="100">
+    </div>
+    <ul>
+       <li>VIRATKOHLI</li>
+       <LI>5 NOVEMBER  1988</LI>
+       <LI>INDIAN CRICKET PLAYER</LI>
+    </ul>
+    <p class="p1">CLICK ME MORE Kohli was a member of the Indian team that won the 2011 Cricket World Cup, 2013 Champions Trophy and 2024 T20 World Cup and captained India to win the ICC Test mace three consecutive times in 2017, 2018, and 2019.[6] He represents Royal Challengers Bengaluru in the Indian Premier League and Delhi in domestic cricket</p>
+    <p id="b1">Kohli was a member of the Indian team that won the 2011 Cricket World Cup, 2013 Champions Trophy and 2024 T20 World Cup and captained India to win the ICC Test mace three consecutive times in 2017, 2018, and 2019.[6] He represents Royal Challengers Bengaluru in the Indian Premier League and Delhi in domestic cricket</p>
+    <div class="d2">
+        <img src="../ASSERTS/IMAGES/Hibiscus.jpg" height="115" width="100">
+    </div>
+    <ol>
+        <li>HIBISCUS</li>
+        <li>FAMILY:MALVACEAE</li>
+        <li>ORDER:MALVALES</li>
+    </ol>
+    <p class="p2">CLICK ME MORE Hibiscus[2][3] is a genus of flowering plants in the mallow family, Malvaceae. </p>
+    <p id="b2">Hibiscus[2][3] is a genus of flowering plants in the mallow family, Malvaceae. The genus is quite large, comprising several hundred species that are native to warm temperate, subtropical and tropical regions throughout the world. Member species are renowned for their large, showy flowers and those species are commonly known simply as "hibiscus", or less widely known as rose mallow.</p>
+</body>
+</html>
